@@ -9,6 +9,8 @@ It does not require you to know the structure of the payload (eg. create structs
 
 ## 🔒 Formally Verified — the first Go library proven to L3 assurance by [ReqProof](https://reqproof.com)
 
+[![jsonparser — Proof of Quality](https://portal.reqproof.com/projects/jsonparser-real/card.svg)](https://portal.reqproof.com/projects/jsonparser-real/card)
+
 jsonparser is the **reference case study** for [ReqProof](https://reqproof.com) — a git-native requirements-engineering and formal-verification platform. Every public API is traced to a formal requirement, every requirement is tested with **100% Modified Condition/Decision Coverage (MC/DC)**, and the entire parser is fuzzed by a custom **structure-aware JSON fuzzer** ([github.com/probelabs/json-fuzz](https://github.com/probelabs/json-fuzz)) that generates grammar-valid mutations at 250,000 inputs/second.
 
 | Metric | Value |
